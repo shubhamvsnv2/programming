@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arrow Function tutorial</title>
+</head>
+<body>
+    <div class="container">
+        Tutorial of Arrow Function
+    </div>    
+    <script>
+        greet = () =>{
+            console.log("Arrow Function");
+        }
+        setTimeout(() => {
+            console.log("printing after 3 second");
+        }, 3000);
+        half = a => console.log(a/2);
+        half(20)
+        greet();
+    </script>
+</body>
+</html>
